@@ -16,6 +16,18 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'trello-members.s3.amazonaws.com',
+        port: '',
+        pathname: '/**',
+      },
+       {
+        protocol: 'https',
+        hostname: 'trello.com', // For board backgrounds etc.
+        port: '',
+        pathname: '/**',
+      }
     ],
   },
 };
