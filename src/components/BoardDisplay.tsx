@@ -43,8 +43,8 @@ export function BoardDisplay({ board, listsWithCards }: BoardDisplayProps) {
         >
           <div className={`flex items-center justify-between w-full p-4 ${(board.prefs?.backgroundImage || board.prefs?.backgroundColor) ? 'bg-black/30 backdrop-blur-sm' : ''}`}>
             <div className="flex items-center">
-              <KanbanSquare className="mr-3 h-6 w-6 flex-shrink-0" style={{color: textColor}} />
-              <h3 className="text-xl font-semibold font-headline" style={{color: textColor}}>{board.name}</h3>
+              <KanbanSquare className="mr-3 h-6 w-6 flex-shrink-0" style={{color: 'white'}} />
+              <h3 className="text-xl font-semibold font-headline" style={{color: 'white'}}>{board.name}</h3>
             </div>
              {/* Chevron is part of AccordionTrigger */}
           </div>
